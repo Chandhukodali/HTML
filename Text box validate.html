@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+function validate()
+{
+var n=document.myform.name.value;
+var n=document.myform.mobile.value;
+if(n=="")
+{
+window.alert("enter the name");
+return false;
+if(is NaN(m)||m=="")
+{
+window.alert("enter the mobilenumber");
+return false;
+}
+}
+</script>
+<body>
+<form name="myform" On submit="return validate()">
+name=<input type="text" name="name"><br>
+mobile=<input type="text" name="mobile"><br>
+<input type="submit" value="ok">
+<input type="Reset" value="Clear">
+</body>
+</html>
